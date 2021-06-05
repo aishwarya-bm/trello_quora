@@ -11,13 +11,6 @@ This is the team project for RESTAPI module
 3. Check all the issues on the original repository.
 4. Work through the requirements in the issue
 
-## Config changes
-
-You will need to change the password and username as per your database configuration in these places -
-
-1. quora-api/src/main/resources/application.yaml
-2. quora-db/src/main/resources/config/localhost.properties
-
 
 (...more to come :clown_face:)
 
