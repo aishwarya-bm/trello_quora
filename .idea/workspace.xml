@@ -27,9 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47a15d9d-c79e-46a9-bbbf-df38ac55657d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47a15d9d-c79e-46a9-bbbf-df38ac55657d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538752844056" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -81,7 +79,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.6643678" />
+    <property name="project.structure.side.proportion" value="0.19839142" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -252,10 +250,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1622999176316" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1622985875213">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1623003707678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622985875213" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623003707678" />
     <state width="1323" height="135" key="GridCell.Tab.0.bottom" timestamp="1623002479675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -288,10 +286,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="291" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1623000516982" />
-    <state x="-5" y="0" width="1333" height="728" key="SettingsEditor" timestamp="1622999186997">
+    <state x="-5" y="0" width="1333" height="728" key="SettingsEditor" timestamp="1623003714364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-5" y="0" width="1333" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1622999186997" />
+    <state x="-5" y="0" width="1333" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1623003714364" />
     <state x="465" y="232" key="classpath-attribute-editor" timestamp="1622999182245">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

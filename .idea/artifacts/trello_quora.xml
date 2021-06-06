@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="trello-quora">
-    <output-path>$PROJECT_DIR$/out/artifacts/trello_quora</output-path>
+    <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="trello-quora.war">
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
