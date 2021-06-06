@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar quora-api/target/quora-api-1.0-SNAPSHOT.jar --port $PORT out/*.war
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT out/*.war

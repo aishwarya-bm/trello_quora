@@ -1,0 +1,144 @@
+-------------------------------------------------------------------------------
+Test set: com.upgrad.quora.api.controller.AnswerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 20.721 s <<< FAILURE! - in com.upgrad.quora.api.controller.AnswerControllerTest
+deleteAnswerWithNonExistingAccessToken(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.221 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithNonExistingAccessToken(AnswerControllerTest.java:86)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithNonExistingAccessToken(AnswerControllerTest.java:86)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithNonExistingAccessToken(AnswerControllerTest.java:86)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithNonExistingAccessToken(AnswerControllerTest.java:86)
+
+getAllAnswersToNonExistingQuestion(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.496 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToNonExistingQuestion(AnswerControllerTest.java:134)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToNonExistingQuestion(AnswerControllerTest.java:134)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToNonExistingQuestion(AnswerControllerTest.java:134)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToNonExistingQuestion(AnswerControllerTest.java:134)
+
+getAllAnswersToQuestionWithSignedOutUser(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.487 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToQuestionWithSignedOutUser(AnswerControllerTest.java:126)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToQuestionWithSignedOutUser(AnswerControllerTest.java:126)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToQuestionWithSignedOutUser(AnswerControllerTest.java:126)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToQuestionWithSignedOutUser(AnswerControllerTest.java:126)
+
+editAnswerWithNonExistingAccessToken(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.508 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithNonExistingAccessToken(AnswerControllerTest.java:54)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithNonExistingAccessToken(AnswerControllerTest.java:54)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithNonExistingAccessToken(AnswerControllerTest.java:54)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithNonExistingAccessToken(AnswerControllerTest.java:54)
+
+deleteAnswerWithSignedOutUser(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.503 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithSignedOutUser(AnswerControllerTest.java:94)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithSignedOutUser(AnswerControllerTest.java:94)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithSignedOutUser(AnswerControllerTest.java:94)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithSignedOutUser(AnswerControllerTest.java:94)
+
+createAnswerForNonExistingQuestion(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.519 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerForNonExistingQuestion(AnswerControllerTest.java:46)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerForNonExistingQuestion(AnswerControllerTest.java:46)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerForNonExistingQuestion(AnswerControllerTest.java:46)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerForNonExistingQuestion(AnswerControllerTest.java:46)
+
+deleteAnswerWithoutOwnership(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.484 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithoutOwnership(AnswerControllerTest.java:110)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithoutOwnership(AnswerControllerTest.java:110)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithoutOwnership(AnswerControllerTest.java:110)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteAnswerWithoutOwnership(AnswerControllerTest.java:110)
+
+deleteNonExistingAnswer(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.484 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteNonExistingAnswer(AnswerControllerTest.java:102)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteNonExistingAnswer(AnswerControllerTest.java:102)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteNonExistingAnswer(AnswerControllerTest.java:102)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.deleteNonExistingAnswer(AnswerControllerTest.java:102)
+
+getAllAnswersToQuestionWithNonExistingAccessToken(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.488 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToQuestionWithNonExistingAccessToken(AnswerControllerTest.java:118)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToQuestionWithNonExistingAccessToken(AnswerControllerTest.java:118)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToQuestionWithNonExistingAccessToken(AnswerControllerTest.java:118)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.getAllAnswersToQuestionWithNonExistingAccessToken(AnswerControllerTest.java:118)
+
+editAnswerWithoutOwnership(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.539 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithoutOwnership(AnswerControllerTest.java:78)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithoutOwnership(AnswerControllerTest.java:78)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithoutOwnership(AnswerControllerTest.java:78)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithoutOwnership(AnswerControllerTest.java:78)
+
+editAnswerWithSignedOutUser(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.498 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithSignedOutUser(AnswerControllerTest.java:62)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithSignedOutUser(AnswerControllerTest.java:62)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithSignedOutUser(AnswerControllerTest.java:62)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editAnswerWithSignedOutUser(AnswerControllerTest.java:62)
+
+createAnswerWithNonExistingAccessToken(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.475 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerWithNonExistingAccessToken(AnswerControllerTest.java:30)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerWithNonExistingAccessToken(AnswerControllerTest.java:30)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerWithNonExistingAccessToken(AnswerControllerTest.java:30)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerWithNonExistingAccessToken(AnswerControllerTest.java:30)
+
+createAnswerWithSignedOutUser(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.487 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerWithSignedOutUser(AnswerControllerTest.java:38)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerWithSignedOutUser(AnswerControllerTest.java:38)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerWithSignedOutUser(AnswerControllerTest.java:38)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.createAnswerWithSignedOutUser(AnswerControllerTest.java:38)
+
+editNonExistingAnswer(com.upgrad.quora.api.controller.AnswerControllerTest)  Time elapsed: 1.496 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editNonExistingAnswer(AnswerControllerTest.java:70)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editNonExistingAnswer(AnswerControllerTest.java:70)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editNonExistingAnswer(AnswerControllerTest.java:70)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "49.205.253.134", user "dxhbgcsdlqtxnu", database "d9nmh4nu5hb0bo", SSL off
+	at com.upgrad.quora.api.controller.AnswerControllerTest.editNonExistingAnswer(AnswerControllerTest.java:70)
+
