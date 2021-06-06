@@ -9,12 +9,12 @@ spring:
 
   datasource:
     driverClassName: org.postgresql.Driver
-#    url: jdbc:postgresql://localhost:5432/quora
-#      username:postgres
-#      password:postgres
-    url: jdbc:postgresql://ec2-54-145-224-156.compute-1.amazonaws.com:5432/d3lvj5hjkm3irv
-    username:fbnxduajrwusyr
-    password:c7c53a1ba5ecb4fa40736433eb7493c73c8f3d10465dec084fd920f3d16bf5bd
+    #    url: jdbc:postgresql://localhost:5432/quora
+    #      username:postgres
+    #      password:postgres
+    url: jdbc:postgresql://ec2-54-225-228-142.compute-1.amazonaws.com:5432/d9nmh4nu5hb0bo
+    username: dxhbgcsdlqtxnu
+    password: 7000e9b44ef15dee6135b5fa6dc04e127105b2687178ece1b90759524a10ec71
 
   jpa:
     properties:
